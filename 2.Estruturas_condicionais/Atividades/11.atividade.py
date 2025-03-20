@@ -2,6 +2,7 @@ import os
 
 os.system("clear")
 
+
 print("""
 ==================== MENU ====================
 Código  \tprato     \t\tValor
@@ -35,6 +36,6 @@ match opcao:
         prato = "Opção invalida"
         valor = 0
 
-    print()
-    print(f"Prato: {prato}")
-    print(f"Valor: R$ {valor:.2f}")
+print()
+print(f"Prato: {prato}" )
+print(f"Valor: R$ {valor:.2f}" )
