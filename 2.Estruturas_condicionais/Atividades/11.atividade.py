@@ -14,7 +14,7 @@ Código  \tprato     \t\tValor
 
 """)
 
-opcao = str(input("Digite a opção desejada: "))
+opcao = int(input("Digite a opção desejada: "))
 
 match opcao:
     case 1:
