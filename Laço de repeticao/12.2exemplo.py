@@ -1,5 +1,6 @@
 import os
 
+
 os.system("cls || clear")
 
 # Exemplo de uso do laço de repetição while.
