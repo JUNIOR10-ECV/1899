@@ -25,7 +25,7 @@ nome_arquivo = "dados_pacientes.csv"
 
 print("Salvando dados no arquivo.")
 with open(nome_arquivo, "a") as arquivo_pacientes:
-    for paciente in llista_usuarios:
+    for paciente in lista_usuarios:
         arquivo_pacientes.write(f"{paciente.nome}, {paciente.idade} \n")
 
 print("Salvo com sucesso.")
